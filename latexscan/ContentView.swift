@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var viewModel = LaTeXScannerViewModel()
+    @StateObject private var viewModel = LatexScanViewModel()
     
     var body: some View {
         VStack(spacing: 16) {
@@ -17,7 +17,7 @@ struct ContentView: View {
                 Image(systemName: "function")
                     .font(.title2)
                     .foregroundColor(.accentColor)
-                Text("LaTeX Scanner")
+                Text("Latex Scan")
                     .font(.headline)
                 Spacer()
                 Button(action: { NSApp.terminate(nil) }) {

@@ -1,4 +1,4 @@
-# LaTeX Scanner
+# Latex Scan
 
 A macOS menu bar app that captures any math equation on screen and instantly converts it to LaTeX using Google's Gemini AI.
 

@@ -31,7 +31,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         
         if let button = statusItem?.button {
-            button.image = NSImage(systemSymbolName: "function", accessibilityDescription: "LaTeX Scanner")
+            button.image = NSImage(systemSymbolName: "function", accessibilityDescription: "Latex Scan")
             button.action = #selector(togglePopover)
             button.target = self
         }

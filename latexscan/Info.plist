@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>LaTeX Scanner</string>
+    <string>Latex Scan</string>
     <key>CFBundleDisplayName</key>
-    <string>LaTeX Scanner</string>
+    <string>Latex Scan</string>
     <key>CFBundleIdentifier</key>
     <string>pranavkarthik.latexscan</string>
     <key>CFBundleVersion</key>

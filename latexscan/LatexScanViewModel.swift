@@ -1,5 +1,5 @@
 //
-//  LaTeXScannerViewModel.swift
+//  LatexScanViewModel.swift
 //  latexscan
 //
 //  Created by Pranav Karthik on 2026-01-14.
@@ -11,7 +11,7 @@ import Combine
 import UserNotifications
 
 @MainActor
-class LaTeXScannerViewModel: ObservableObject {
+class LatexScanViewModel: ObservableObject {
     @Published var isProcessing = false
     @Published var lastResult: String?
     @Published var errorMessage: String?

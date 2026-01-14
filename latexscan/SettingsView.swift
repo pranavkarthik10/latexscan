@@ -83,7 +83,7 @@ struct SettingsView: View {
                             .font(.system(size: 48))
                             .foregroundColor(.accentColor)
                         
-                        Text("LaTeX Scanner")
+                        Text("Latex Scan")
                             .font(.title2)
                             .fontWeight(.semibold)
                         
