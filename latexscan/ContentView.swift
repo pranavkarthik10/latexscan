@@ -128,7 +128,7 @@ struct ContentView: View {
             }
         }
         .padding()
-        .frame(width: 320, height: 400)
+        .frame(width: 320, height: 480)
     }
 }
 
