@@ -19,16 +19,33 @@ class LatexScanViewModel: ObservableObject {
     
     private let geminiService = GeminiService()
     private var captureObserver: NSObjectProtocol?
+    private var defaultsObserver: NSObjectProtocol?
     
     init() {
         checkApiKey()
         setupNotificationObserver()
+        setupDefaultsObserver()
         requestNotificationPermission()
     }
     
     deinit {
         if let observer = captureObserver {
             NotificationCenter.default.removeObserver(observer)
+        }
+        if let observer = defaultsObserver {
+            NotificationCenter.default.removeObserver(observer)
+        }
+    }
+    
+    private func setupDefaultsObserver() {
+        defaultsObserver = NotificationCenter.default.addObserver(
+            forName: UserDefaults.didChangeNotification,
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            Task { @MainActor in
+                self?.checkApiKey()
+            }
         }
     }
     
