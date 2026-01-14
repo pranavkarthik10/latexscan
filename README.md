@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Latex Scan
+=======
+# LaTeX Scan
+>>>>>>> acfa1e14c22ae334984f77d3012e0e2581e57016
 
 A macOS menu bar app that captures any math equation on screen and instantly converts it to LaTeX using Google's Gemini AI.
 
