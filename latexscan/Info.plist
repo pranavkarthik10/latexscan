@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>LaTeX Scanner</string>
+    <key>CFBundleDisplayName</key>
+    <string>LaTeX Scanner</string>
+    <key>CFBundleIdentifier</key>
+    <string>pranavkarthik.latexscan</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>LaTeX Scanner needs screen capture access to capture math equations for conversion to LaTeX.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>LaTeX Scanner needs accessibility access to register global keyboard shortcuts.</string>
+</dict>
+</plist>
